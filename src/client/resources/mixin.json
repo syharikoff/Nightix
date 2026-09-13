@@ -54,7 +54,8 @@
     "ItemHighlightHotbarMixin",
     "ItemModelManagerMixin",
     "ConsumableOptimizerNetworkHandlerMixin",
-    "ConsumableOptimizerMinecraftClientMixin"
+    "ConsumableOptimizerMinecraftClientMixin",
+    "FrameSyncMixin"
   ],
   "injectors": {
     "defaultRequire": 1

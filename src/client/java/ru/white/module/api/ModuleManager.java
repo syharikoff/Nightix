@@ -79,7 +79,8 @@ public final class ModuleManager extends LinkedHashMap<Class<? extends Module>, 
                 new AutoInvest(),
                 new FakePlayer(),
                 new ItemHighlight(),
-                new ConsumableOptimizer()
+                new ConsumableOptimizer(),
+                new FrameSync()
         );
 
         this.values().stream()
