@@ -1,0 +1,13 @@
+{
+  "key.swordreplacer.open_config": "Открыть Sword Replacer",
+  "key.category.swordreplacer.general": "Sword Replacer",
+  "screen.swordreplacer.title": "Замена мечей",
+  "screen.swordreplacer.enabled": "Включено: %s",
+  "screen.swordreplacer.diamond_sword": "Алмазный",
+  "screen.swordreplacer.netherite_sword": "Незеритовый",
+  "screen.swordreplacer.selection": "%1$s: %2$s",
+  "screen.swordreplacer.search": "Поиск моделей...",
+  "screen.swordreplacer.reset": "Сбросить",
+  "screen.swordreplacer.preview_active": "Предпросмотр",
+  "screen.swordreplacer.preview_disabled": "Выключено"
+}

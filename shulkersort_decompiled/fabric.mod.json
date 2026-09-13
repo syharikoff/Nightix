@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "shulkersort",
+	"version": "1.1.0",
+	"name": "Shulker Sort",
+	"description": "Auto-sorts items in the open shulker box / chest by a keybind toggle. Same items get stacked together; armor is placed next to each other. The player inventory is not touched.",
+	"authors": [
+		"Example"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.shulkersort.ShulkerSortMod"
+		],
+		"client": [
+			"com.example.shulkersort.client.ShulkerSortClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

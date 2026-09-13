@@ -1,0 +1,13 @@
+{
+  "key.swordreplacer.open_config": "Open Sword Replacer",
+  "key.category.swordreplacer.general": "Sword Replacer",
+  "screen.swordreplacer.title": "Sword Replacer",
+  "screen.swordreplacer.enabled": "Enabled: %s",
+  "screen.swordreplacer.diamond_sword": "Diamond",
+  "screen.swordreplacer.netherite_sword": "Netherite",
+  "screen.swordreplacer.selection": "%1$s: %2$s",
+  "screen.swordreplacer.search": "Search models...",
+  "screen.swordreplacer.reset": "Reset",
+  "screen.swordreplacer.preview_active": "Preview",
+  "screen.swordreplacer.preview_disabled": "Disabled"
+}

@@ -1,0 +1,10 @@
+{
+  "vertex": "closedui:core/bloom_overlay",
+  "fragment": "closedui:core/bloom_overlay",
+  "samplers": [
+    { "name": "BloomSampler" }
+  ],
+  "uniforms": [
+    { "name": "BloomIntensity", "type": "float", "count": 1, "values": [ 1.0 ] }
+  ]
+}

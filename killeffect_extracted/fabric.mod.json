@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "killeffect",
+	"version": "0.1.0",
+
+	"name": "Kill Effect",
+	"description": "Client-side 3D Kill Effects rendered from original Blockbench .bbmodel files.",
+	"authors": [
+		"killeffect"
+	],
+	"contact": {
+		"homepage": "https://example.org/",
+		"sources": "https://github.com/example/example"
+	},
+
+	"license": "MIT",
+	"icon": "assets/killeffect/icon.png",
+
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.killeffect.client.KilleffectClient"
+		]
+	},
+
+	"mixins": [
+		"killeffect.client.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

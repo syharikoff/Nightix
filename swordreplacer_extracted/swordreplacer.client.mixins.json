@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "eu.anomalith.swordreplacer.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"GameOptionsAccessor",
+		"ItemModelManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shulkerlock",
+  "version": "1.0.0",
+  "name": "ShulkerLock",
+  "description": "Prevents dropping shulker boxes when toggled on",
+  "authors": ["mishqa"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.shulkerlock.ShulkerLockMod"]
+  },
+  "mixins": ["shulkerlock.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

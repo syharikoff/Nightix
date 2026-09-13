@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "swordreplacer",
+	"version": "1.0.1",
+	"name": "Sword Replacer",
+	"description": "Client-side diamond and netherite sword model selector with an in-game configuration screen.",
+	"authors": [
+		"Anomalith"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/swordreplacer/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"eu.anomalith.swordreplacer.SwordReplacer"
+		],
+		"client": [
+			"eu.anomalith.swordreplacer.SwordReplacerClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "swordreplacer.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

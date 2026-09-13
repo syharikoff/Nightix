@@ -1,0 +1,11 @@
+{
+  "vertex": "lunaris:pipeline/puddles",
+  "fragment": "lunaris:pipeline/world/ambience/puddles",
+  "samplers": [
+    { "name": "SceneSampler" },
+    { "name": "DepthSampler" }
+  ],
+  "uniforms": [
+    { "name": "PuddleData", "type": "uniform_buffer", "count": 1 }
+  ]
+}

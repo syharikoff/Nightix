@@ -1,0 +1,12 @@
+{
+  "vertex": "lunaris:pipeline/volumetric_fog",
+  "fragment": "lunaris:pipeline/world/ambience/blur_fog",
+  "samplers": [
+    { "name": "SceneSampler" },
+    { "name": "DepthSampler" }
+  ],
+  "uniforms": [
+    { "name": "BlurFogData", "type": "uniform_buffer", "count": 1 }
+  ]
+}
+
